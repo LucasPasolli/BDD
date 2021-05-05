@@ -44,7 +44,9 @@ WHERE f1.rating = f2.rating;
 ```sql
 SELECT title, first_name, last_name
 FROM film, inventory, store, staff
-WHERE film.film_id = inventory.film_id and inventory.store_id = store.store_id and store.manager_staff_id = staff.staff_id and store.store_id = 2;
+WHERE film.film_id = inventory.film_id and 
+inventory.store_id = store.store_id and 
+store.manager_staff_id = staff.staff_id and store.store_id = 2;
 ```
 
 
