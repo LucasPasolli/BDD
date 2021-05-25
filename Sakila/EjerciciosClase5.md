@@ -2,11 +2,6 @@
 
 ## Lucas Pasolli
 
-### 1. Show title and special_features of films that are PG-13
-```sql
-SELECT title, special_features
-FROM film WHERE rating = 'PG-13';
-```
 ### 1. List all the actors that share the last name. Show them in order
 ```sql
 SELECT first_name, last_name
