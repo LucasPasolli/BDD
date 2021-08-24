@@ -1,4 +1,4 @@
-# Ejercicios Clase 5
+# Ejercicios Clase 7
 
 ## Lucas Pasolli
 
